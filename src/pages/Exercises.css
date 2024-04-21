@@ -1,0 +1,8 @@
+.exercises{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    background-color: #c7def0;
+}

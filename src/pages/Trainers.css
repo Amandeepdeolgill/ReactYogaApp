@@ -1,0 +1,30 @@
+h1, h2{
+    text-align: center;
+    color: #0F2A3F;
+    margin-top: 4rem;
+}
+.trainers {
+    margin:5rem 0rem 2rem;
+    height:100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.trainer {
+    margin: 2rem;
+    max-width: 70%;
+    max-height: 90%;
+}
+.trainer img {
+    height: 280px;
+    width: 280px;
+    border-radius: 10rem;
+}
+@media (max-width:400px){
+    .trainer img {
+        height: 200px;
+        width: 200px;
+        margin: 0.25rem;
+    }
+}

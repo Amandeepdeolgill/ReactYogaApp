@@ -1,0 +1,30 @@
+form {
+    background-color: #fff;
+    color:#0F2A3F;
+    width:330px;
+    height:300px;
+    position: fixed;
+    top: 4rem;
+    right:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    box-shadow: 2px 2px 4px #0F2A3F;
+}
+input {
+    height:6vh;
+    width:80%;
+    text-align: center;
+    border: none;
+    background-color: gainsboro;
+}
+button {
+    width:30%;
+}
+@media (max-width:400px){
+    form {
+        width: 250px;
+    }
+}
+
